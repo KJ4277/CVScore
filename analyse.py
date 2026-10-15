@@ -1,4 +1,4 @@
-import os
+﻿import os
 from typing import List
 
 from pydantic import BaseModel
@@ -85,7 +85,7 @@ def _get_client():
     return _client
 
 
-def analyze_cv(text: str) -> CVAnalysis:
+def analyse_cv(text: str) -> CVAnalysis:
     from google.genai import types
 
     response = _get_client().models.generate_content(

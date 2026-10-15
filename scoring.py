@@ -1,4 +1,4 @@
-from analyse import CVAnalysis, analyze_cv
+﻿from analyse import CVAnalysis, analyse_cv
 
 MIN_STATEMENTS = 5  # floor so very short statement lists can't swing the ratios
 
@@ -58,4 +58,4 @@ def score_cv(a: CVAnalysis) -> dict:
 
 
 def review_cv(text: str) -> dict:
-    return score_cv(analyze_cv(text))
+    return score_cv(analyse_cv(text))
