@@ -1,4 +1,4 @@
-from analyze import CVAnalysis, analyze_cv
+from analyse import CVAnalysis, analyze_cv
 
 MIN_STATEMENTS = 5  # floor so very short statement lists can't swing the ratios
 
